@@ -15,6 +15,7 @@ class FirstApp extends StatelessWidget {
         themeMode: ThemeMode.light,
         theme: ThemeData(
           primarySwatch: Colors.green,
+        
         ),
         darkTheme: ThemeData(
           brightness: Brightness.dark,
