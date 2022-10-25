@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-class HomePage extends StatelessWidget {
+class HomePage extends StatelessWidget {     //statelesswidget is a class
   final String name = "Nikhil Tyagi";
 
   @override
