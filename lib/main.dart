@@ -16,7 +16,7 @@ class FirstApp extends StatelessWidget {
         theme: ThemeData(
           primarySwatch: Colors.green,
         ),
-        debugShowCheckedModeBanner: false ,
+        debugShowCheckedModeBanner: false,
         darkTheme: ThemeData(
           brightness: Brightness.dark,
         ),
