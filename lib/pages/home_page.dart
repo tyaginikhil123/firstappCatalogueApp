@@ -11,7 +11,7 @@ class HomePage extends StatelessWidget {     //statelesswidget is a class
       ),
           body: Center(
             child: Container(
-               child: Text("Catalogue app by $name"),
+               child: Text("Catalogue app by $name", style: TextStyle(fontSize: 25)),
           ),
          ),
          drawer: Drawer(),
