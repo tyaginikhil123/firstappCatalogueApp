@@ -11,11 +11,9 @@ class FirstApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-        
         themeMode: ThemeMode.light,
         theme: ThemeData(
           primarySwatch: Colors.green,
-        
         ),
         darkTheme: ThemeData(
           brightness: Brightness.dark,
@@ -24,7 +22,7 @@ class FirstApp extends StatelessWidget {
           "/":(context) => LoginPage(),
           "/Home" :(context) => HomePage(),
           "/Login" :(context) => LoginPage(),
-        },
-      );
+       },
+    );
   }
 }
