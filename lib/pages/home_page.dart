@@ -13,7 +13,7 @@ class HomePage extends StatelessWidget {
       ),
       body: Center(
         child: Container(
-          child: Text("Welcome to my firstapp by $name"),
+          child: Text("Welcome to firstapp by $name"),
         ),
       ),
       drawer: MyDrawer(),
